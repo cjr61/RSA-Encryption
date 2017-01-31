@@ -1,0 +1,2 @@
+all:
+	g++ sha256.cpp main.cpp ../bigInt435/BigInteger.o ../bigInt435/BigIntegerAlgorithms.o ../bigInt435/BigIntegerUtils.o ../bigInt435/BigUnsigned.o ../bigInt435/BigUnsignedInABase.o -o sha256_example 
